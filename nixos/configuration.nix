@@ -104,8 +104,6 @@
       microsoft-edge
       kate
       vscode
-      python311
-      neofetch
     ];
   };
 
