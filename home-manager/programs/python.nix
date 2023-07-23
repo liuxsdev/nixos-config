@@ -9,17 +9,20 @@
 #     python311Packages.requests
 #   ];
 # }
-{
-  let
+
+let
   my-python-packages = ps: with pkgs.ps; [
     pip
     requests
   ];
   python-with-my-packages = pkgs.python311.withPackages my-python-packages;
-  in
-  {
+in
+{
   home.packages = with pkgs; [
     python-with-my-packages
   ];
 }
-}
+
+
+
+
