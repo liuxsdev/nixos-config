@@ -14,5 +14,6 @@
     neofetch
     htop
     wget
+    nixpkgs-fmt
   ];
 }
