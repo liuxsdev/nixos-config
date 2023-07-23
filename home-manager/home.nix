@@ -3,6 +3,7 @@
 {
   imports = [
     ./cli.nix
+    ./programs
   ];
 
   home.username = "liuxs";
