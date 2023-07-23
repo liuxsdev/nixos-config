@@ -113,10 +113,7 @@
     description = "liuxs";
     extraGroups = [ "networkmanager" "wheel" ];
     packages = with pkgs; [
-      firefox
-      microsoft-edge
-      kate
-      vscode
+      # firefox
     ];
   };
 

@@ -14,5 +14,8 @@
     htop
     wget
     nixpkgs-fmt
+    # 桌面软件
+    microsoft-edge
+    vscode
   ];
 }
