@@ -6,6 +6,9 @@
     # 编程语言
     rustup
     python311
+    # GCC
+    gcc13
+    pkg-config
     # 其他
     neofetch
     htop
