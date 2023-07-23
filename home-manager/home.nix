@@ -7,5 +7,5 @@
   # 用户包
   home.packages = with pkgs; [
     htop
-  ]
+  ];
 }
