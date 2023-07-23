@@ -11,18 +11,18 @@
 # }
 
 let
-  my-python-packages = ps: with pkgs.ps; [
+  my-python-packages = ps: with ps; [
     pip
     requests
+    # other python packages
   ];
-  python-with-my-packages = pkgs.python311.withPackages my-python-packages;
 in
 {
-  home.packages = with pkgs; [
-    python-with-my-packages
+  home.packages = with pkgs;[
+    (pkgs.python3.withPackages my-python-packages)
   ];
-}
 
+}
 
 
 
