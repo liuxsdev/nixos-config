@@ -18,6 +18,8 @@ sudo nixos-rebuild --flake .#nixos switch
 
 # 参考资料与常用链接
 
+[NixOS 与 Flakes 一份非官方的新手指南](https://nixos-and-flakes.thiscute.world/zh/)
+
 [My NixOS Journey - Flakes](https://tech.aufomm.com/my-nixos-journey-flakes/)
 
 [Home_Manager](https://nixos.wiki/wiki/Home_Manager)
