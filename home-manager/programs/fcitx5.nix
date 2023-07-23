@@ -1,4 +1,4 @@
-{ pkgs, ... }:
+{ config, pkgs, ... }:
 
 # fcitx5 输入法
 # https://github.com/ryan4yin/nix-config/blob/v0.0.5/home/linux/fcitx5/default.nix
