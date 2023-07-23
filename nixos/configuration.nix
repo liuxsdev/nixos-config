@@ -106,8 +106,6 @@
       vscode
       python311
       neofetch
-
-    #  thunderbird
     ];
   };
 

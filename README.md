@@ -16,7 +16,7 @@ nix flake update
 sudo nixos-rebuild --flake .#nixos switch
 ```
 
-# 参考资料
+# 参考资料与常用链接
 
 [My NixOS Journey - Flakes](https://tech.aufomm.com/my-nixos-journey-flakes/)
 
@@ -25,3 +25,5 @@ sudo nixos-rebuild --flake .#nixos switch
 [bobby285271/nixos-config](https://github.com/bobby285271/nixos-config)
 
 [Nix 语法 ](https://nixos.org/manual/nix/stable/language/index.html)
+
+[Packages](https://search.nixos.org/packages)
