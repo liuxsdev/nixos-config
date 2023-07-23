@@ -6,7 +6,8 @@
 
 {
   imports =
-    [ # Include the results of the hardware scan.
+    [
+      # Include the results of the hardware scan.
       ./hardware-configuration.nix
     ];
 
@@ -46,7 +47,7 @@
     enabled = "ibus";
     ibus.engines = with pkgs.ibus-engines;[
       libpinyin
-      rime  
+      rime
     ];
   };
   # Font
@@ -54,7 +55,7 @@
     fontDir.enable = true;
     fonts = with pkgs; [
       source-han-sans
-      source-han-serif  
+      source-han-serif
     ];
   };
 
@@ -113,7 +114,7 @@
   # List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
-  #  vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
+    #  vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
     # git
   ];
 
@@ -145,5 +146,5 @@
   system.stateVersion = "23.05"; # Did you read the comment?
 
   # Enbale Flakes
-  nix.settings.experimental-features = ["nix-command" "flakes"];
+  nix.settings.experimental-features = [ "nix-command" "flakes" ];
 }
