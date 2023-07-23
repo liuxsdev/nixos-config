@@ -9,6 +9,7 @@
     # GCC
     gcc13
     pkg-config
+    openssl
     # 其他
     neofetch
     htop
