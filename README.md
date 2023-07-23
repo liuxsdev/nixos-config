@@ -30,7 +30,6 @@ sudo nixos-rebuild --flake .#nixos switch
 
 [Packages](https://search.nixos.org/packages)
 
-
 ## nix community's cache server
 
 [https://nix-community.cachix.org](https://app.cachix.org/cache/nix-community)
