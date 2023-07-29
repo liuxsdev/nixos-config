@@ -4,5 +4,6 @@
   imports = [
     ./git.nix
     ./python.nix
+    ./docker.nix
   ];
 }
