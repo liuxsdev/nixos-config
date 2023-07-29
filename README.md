@@ -12,7 +12,7 @@ sudo nixos-rebuild --flake ~/nixos-config#nixos switch
 
 ```shell
 cd ~/nixos-config
-nix flake update
+sudo nix flake update
 sudo nixos-rebuild --flake .#nixos switch
 ```
 
