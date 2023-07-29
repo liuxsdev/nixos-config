@@ -9,6 +9,7 @@
     [
       # Include the results of the hardware scan.
       ./hardware-configuration.nix
+      ./fonts.nix
       ./docker.nix
     ];
 
@@ -61,14 +62,6 @@
       fcitx5-chinese-addons
       # fcitx5-mozc    # japanese input method
       fcitx5-gtk # gtk im module
-    ];
-  };
-  # Font
-  fonts = {
-    fontDir.enable = true;
-    fonts = with pkgs; [
-      source-han-sans
-      source-han-serif
     ];
   };
 
