@@ -2,8 +2,8 @@
 
 {
   imports = [
-    ./cli.nix
     ./programs
+    ./desktop
   ];
 
   home.username = "liuxs";
