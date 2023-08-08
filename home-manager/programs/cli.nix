@@ -10,6 +10,7 @@
     pkg-config
     openssl
     # 其他
+    micro
     neofetch
     htop
     wget
